@@ -6,10 +6,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h1>Ucely.com</h1>
     <div class="card">
       Emaples: 
+      <button id="qili" type="button"></button>
       <button id="blog" type="button"></button> 
       <button id="counter" type="button"></button> 
       <button id="contract" type="button"></button>
-      <button id="qili" type="button"></button>
     </div>
   </div>
 `;
