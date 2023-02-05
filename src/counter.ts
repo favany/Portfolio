@@ -13,3 +13,11 @@ export function setupContract(element: HTMLButtonElement) {
   element.addEventListener('click', () => open('https://contract.ucely.com'));
   setCounter();
 }
+
+export function setupQili(element: HTMLButtonElement) {
+  const setCounter = () => {
+    element.innerHTML = `绮丽世界`;
+  };
+  element.addEventListener('click', () => open('https://qili.world'));
+  setCounter();
+}

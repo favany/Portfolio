@@ -1,5 +1,5 @@
 import './style.css';
-import { setupCounter, setupContract } from './counter';
+import { setupCounter, setupContract, setupQili } from './counter';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -8,9 +8,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       Emaples: 
       <button id="counter" type="button"></button> 
       <button id="contract" type="button"></button>
+      <button id="qili" type="button"></button>
     </div>
   </div>
 `;
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!);
 setupContract(document.querySelector<HTMLButtonElement>('#contract')!);
+setupQili(document.querySelector<HTMLButtonElement>('#qili')!);
