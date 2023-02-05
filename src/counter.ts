@@ -21,3 +21,11 @@ export function setupQili(element: HTMLButtonElement) {
   element.addEventListener('click', () => open('https://qili.world'));
   setCounter();
 }
+
+export function setupBlog(element: HTMLButtonElement) {
+  const setCounter = () => {
+    element.innerHTML = `技术博客`;
+  };
+  element.addEventListener('click', () => open('https://know.ucely.com'));
+  setCounter();
+}
