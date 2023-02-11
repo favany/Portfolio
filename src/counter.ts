@@ -29,3 +29,11 @@ export function setupBlog(element: HTMLButtonElement) {
   element.addEventListener('click', () => open('https://know.ucely.com'));
   setCounter();
 }
+
+export function setupChatgpt(element: HTMLButtonElement) {
+  const setCounter = () => {
+    element.innerHTML = `ChatGPT`;
+  };
+  element.addEventListener('click', () => open('https://chat.ucely.com'));
+  setCounter();
+}
